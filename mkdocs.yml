@@ -71,14 +71,14 @@ extra:
           name: مفید بود
           data: 1
           note: >-
-            سپاس از بازخورد شما! ارائه نقطه نظر: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyObYjliVzE22OS1sCrVyHMV685VlMxsR1H680TtdDXebRVw/viewform" target="_blank" rel="noopener">دیدگاه</a>
+             سپاس از بازخورد شما! فرم بیان نقطه نظرات شما: <a href="https://forms.gle/Tb1ZmoiT9kzQ4ggt6" target="_blank" rel="noopener">ارائه دیدگاه</a>
         - icon: material/emoticon-sad-outline
           name: مفید نبود
           data: 0
           note: >- 
 
 
-           سپاس از بازخورد شما! ارائه نقطه نظر: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyObYjliVzE22OS1sCrVyHMV685VlMxsR1H680TtdDXebRVw/viewform" target="_blank" rel="noopener">دیدگاه</a>
+             سپاس از بازخورد شما! فرم بیان نقطه نظرات شما: <a href="https://forms.gle/Tb1ZmoiT9kzQ4ggt6" target="_blank" rel="noopener">ارائه دیدگاه</a>
   homepage: https://masoudbarani.ir
   generator: false
   social:
