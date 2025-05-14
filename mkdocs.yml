@@ -29,6 +29,9 @@ theme:
     - announce.dismiss
     - navigation.footer
     - content.tooltips
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
   font:
     text: Vazirmatn
     code: Red Hat Mono
@@ -164,4 +167,6 @@ nav:
   - مسعود بارانی: index.md
   - بلاگ: 
     - blog/index.md
+    - برچسب‌ها: blog/tags.md
   - تماس: contact.md
+  
