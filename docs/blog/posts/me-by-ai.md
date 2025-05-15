@@ -19,10 +19,10 @@ slug: ai-created-image
 
 <!-- more -->
 
-برای ایجاد این سبک تصاویر که به Studio Ghibili معروف شده و امروز به ترند بخش ساخت تصویر در هوش مصنوعی تبدیل شده کافیه عکسی که تمایل دارین به صورت انیمه دربیاد رو به همراه Prompt زیر به مدل‌های زبانی از جمله ChatGPT و یا Grok ارسال کنید.
+برای ایجاد این سبک تصاویر که به Studio Ghibili معروف شده و امروز به ترند بخش ساخت تصویر در هوش مصنوعی تبدیل شده کافیه عکسی که تمایل دارین به صورت انیمه دربیاد رو به همراه Prompt زیر به مدل‌های زبانی از جمله GPT و یا Grok ارسال کنید.
 
 
-``` title="Prompt Command"
+``` title="Command prompt"
 restyle this image in studio ghibli style, keep all details
 ```
 
