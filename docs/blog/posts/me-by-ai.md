@@ -14,8 +14,10 @@ slug: ai-created-image
 
 در تصویر پایین پروفایل من رو مشاهده می‌کنید که با استفاده از یه مدل زبانی در هوش مصنوعی ایجاد شده.
 
-![تصویر ساخته شده با هوش مصنوعی](me-by-ai.png)
-
+<figure markdown="span">
+  ![تصویر ساخته شده با هوش مصنوعی](me-by-ai.png)
+  <figcaption>تصویر ایجاد شده به سبک Studio Ghibli</figcaption>
+</figure>
 
 <!-- more -->
 

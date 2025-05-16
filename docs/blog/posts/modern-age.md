@@ -14,7 +14,10 @@ slug: life-on-modern-times
 
  از مدتی قبل تصمیم گرفتم از دانسته‌ها و برداشت‌های شخصی خودم—هر چند محدود بنویسم—نه صرفا برای نمایش به دیگران، بلکه برای بازسازی روح و جسم خودم، در میان هجوم کلمات و جملات برآمده از درون.
  
- ![HUmn-life-in-modern-age](modern-age.png)
+<figure markdown="span">
+   ![HUmn-life-in-modern-age](modern-age.png)
+  <figcaption>انسان مدرن در عصر تکنولوژی و هوش مصنوعی</figcaption>
+</figure>
 
 <!-- more -->
 
