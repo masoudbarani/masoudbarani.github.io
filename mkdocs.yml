@@ -117,7 +117,7 @@ plugins:
       archive_date_format: yyyy
       pagination_per_page: 5
   - tags:
-      tags_file: blog/tags.md
+      tags_slugify_format: "tag:{slug}"
 
 # Extensions
 markdown_extensions:
