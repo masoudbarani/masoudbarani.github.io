@@ -106,8 +106,6 @@ plugins:
       lang: 'en'  # Use English for search index
       separator: ' '  # Adjust for Persian text
   - blog:
-      blog_toc: true
-      enabled: true
       blog_dir:
       categories_allowed:
         - هوش مصنوعی

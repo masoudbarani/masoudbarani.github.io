@@ -5,10 +5,10 @@ hide:
 
 # تماس
 
-## :material-check-decagram: برای مکاتبه آنلاین 
+## :material-check-decagram: مکاتبه آنلاین 
 
  با نام کاربری **``Masoud_Barani``** از راه پیام‌رسان «تلگرام» با من در تماس باشید.
 
-### :material-contacts: سایر راه‌های مکاتبه
+## :material-contacts: سایر راه‌های مکاتبه
 
 دیگر راه‌های تماس از انتهای صفحه در دسترس است.
