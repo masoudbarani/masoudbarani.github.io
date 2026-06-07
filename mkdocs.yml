@@ -55,9 +55,6 @@ theme:
     - search.highlight
     - navigation.footer
     - content.tooltips
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
 
 # =====================
 # Extra assets (IMPORTANT FIX)
