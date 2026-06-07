@@ -1,15 +1,43 @@
-# Project information
+# =====================
+# Site information
+# =====================
 site_name: Masoud Barani
 site_description: پروفایل آنلاین و نوشته‌های مسعود بارانی درباره تکنولوژی، دنیای دیجیتال و زندگی
 site_url: https://masoudbarani.ir
 site_author: مسعود بارانی
+copyright: پروفایل آنلاین «مسعود بارانی» با ❤️ سال ۱۴۰۴
 
-# Copyright
-copyright: پروفایل آنلاین «مسعود بارانی» با ❤️ سال «۱۴۰۴»
-
-# Configuration
+# =====================
+# Theme configuration
+# =====================
 theme:
   name: material
+  language: fa
+
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+  font:
+    text: Vazirmatn
+    code: Red Hat Mono
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
   features:
     - navigation.tracking
     - navigation.tabs
@@ -22,68 +50,112 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
-    - content.action.edit
     - search.suggest
     - search.share
     - search.highlight
-    - announce.dismiss
     - navigation.footer
     - content.tooltips
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-  font:
-    text: Vazirmatn
-    code: Red Hat Mono
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
 
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: deep orange
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: teal
-      accent: deep orange
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  language: fa
-
-# Additional configuration
-extra:
-  status:
-    new: Recently added
-    deprecated: Deprecated
-  extra_css:
+# =====================
+# Extra assets (IMPORTANT FIX)
+# =====================
+extra_css:
   - assets/css/site.css
-  extra_javascript:
-  - assets/js/site.js 
-  analytics:
-    provider: google
-    property: G-RMP4ZJ1XJX
-    feedback:
-      title: این مطلب مفید بود؟
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: مفید بود
-          data: 1
-          note: >-
-             سپاس از بازخورد شما! فرم بیان نقطه نظرات شما: <a href="https://forms.gle/Tb1ZmoiT9kzQ4ggt6" target="_blank" rel="noopener">ارائه دیدگاه</a>
-        - icon: material/emoticon-sad-outline
-          name: مفید نبود
-          data: 0
-          note: >- 
 
+extra_javascript:
+  - assets/js/site.js
 
-             سپاس از بازخورد شما! فرم بیان نقطه نظرات شما: <a href="https://forms.gle/Tb1ZmoiT9kzQ4ggt6" target="_blank" rel="noopener">ارائه دیدگاه</a>
-  homepage: https://masoudbarani.ir
-  generator: false
+# =====================
+# Plugins
+# =====================
+plugins:
+  - search:
+      lang: fa
+      separator: ' '
+
+  - blog:
+      blog_dir: blog
+      post_url_format: "{slug}"
+      pagination_per_page: 5
+      archive_date_format: yyyy
+      categories_allowed:
+        - هوش مصنوعی
+        - تکنولوژی
+        - زندگی
+
+  - tags:
+      tags_slugify_format: "tag:{slug}"
+
+# =====================
+# Markdown extensions
+# =====================
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+
+  - pymdownx.arithmatex:
+      generic: true
+
+  - pymdownx.betterem:
+      smart_enable: all
+
+  - pymdownx.caret
+  - pymdownx.details
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - pymdownx.tilde
+
+# =====================
+# Navigation
+# =====================
+nav:
+  - مسعود بارانی: index.md
+  - بلاگ:
+      - blog/index.md
+      - برچسب‌ها: blog/tags.md
+  - تماس: contact.md
+
+# =====================
+# Extra metadata (safe)
+# =====================
+extra:
   social:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/masoud_b
@@ -99,70 +171,3 @@ extra:
       link: https://t.me/Masoud_Barani
     - icon: material/email
       link: mailto:Me@masoudbarani.ir
-
-# Plugins
-plugins:
-  - search:
-      lang: 'en'  # Use English for search index
-      separator: ' '  # Adjust for Persian text
-  - blog:
-      blog_dir:
-      categories_allowed:
-        - هوش مصنوعی
-        - تکنولوژی
-        - زندگی
-      post_url_format: "{slug}"
-      archive_date_format: yyyy
-      pagination_per_page: 5
-  - tags:
-      tags_slugify_format: "tag:{slug}"
-
-# Extensions
-markdown_extensions:
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - tables
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-     smart_enable: all
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.snippets:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-      combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-
-# Page tree
-nav:
-  - مسعود بارانی: index.md
-  - بلاگ: 
-    - blog/index.md
-    - برچسب‌ها: blog/tags.md
-  - تماس: contact.md
