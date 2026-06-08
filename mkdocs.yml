@@ -153,7 +153,6 @@ nav:
 # Extra metadata (safe)
 # =====================
 extra:
-generator: false
   social:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/masoud_b
