@@ -7,7 +7,7 @@ hide:
 ![مسعود بارانی | Masoud Barani](image/Masoud-Barani.jpg)
 
 * **ایران، خوزستان.**
-## مشخصات فردی
+## پیشینه
 
 ??? info " پیشینه تحصیلی"
 
