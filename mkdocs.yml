@@ -43,7 +43,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
-    - navigation.path
+#   - navigation.path
     - navigation.sections
     - toc.follow
     - navigation.top
