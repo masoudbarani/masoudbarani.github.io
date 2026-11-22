@@ -1,0 +1,67 @@
+[
+    {
+        "id":  "technological-singularity",
+        "slug":  "technological-singularity",
+        "title":  "تکینگی تکنولوژیک",
+        "date":  "2025-06-01",
+        "category":  "تکنولوژی",
+        "tags":  [
+                     "Technology"
+                 ],
+        "image":  "technological-singularity.jpg",
+        "caption":  "تکینگی تکنولوژیک!",
+        "excerpt":  "تکینگی تکنولوژیک: نقطه‌ای در آینده که تکنولوژی، به‌خصوص هوش مصنوعی، به قدری پیشرفت می‌کنه که دیگه توانایی پیش‌بینی کردن از انسان سلب می‌شه!"
+    },
+    {
+        "id":  "technological-change",
+        "slug":  "technological-change",
+        "title":  "تغییرات تکنولوژیک: آماده‌ایم یا نه؟",
+        "date":  "2025-05-09",
+        "category":  "تکنولوژی",
+        "tags":  [
+                     "Technology"
+                 ],
+        "image":  "technological-change.png",
+        "caption":  "تغییرات سریع تکنولوژی در عصر حاضر!",
+        "excerpt":  "تغییرات تکنولوژیک؛ امروز دیگه یه بحث لوکس و مربوط به تصورات ما از آینده نیست؛ الان دیگه تو زندگی روزمره و کاری همه‌مون داره خودش رو نشون می‌ده."
+    },
+    {
+        "id":  "ai-generated-image",
+        "slug":  "ai-generated-image",
+        "title":  "ایجاد عکس انیمه با هوش مصنوعی",
+        "date":  "2025-05-08",
+        "category":  "هوش مصنوعی",
+        "tags":  [
+                     "AI"
+                 ],
+        "image":  "ai-generated-image.png",
+        "caption":  "تصویر ایجاد شده به سبک Studio Ghibli",
+        "excerpt":  "در این تصویر عکس پروفایل من رو مشاهده می‌کنید که با استفاده از یه مدل زبانی در هوش مصنوعی ایجاد شده."
+    },
+    {
+        "id":  "life-on-modern-times",
+        "slug":  "life-on-modern-times",
+        "title":  "زندگی در عصر جدید",
+        "date":  "2025-05-07",
+        "category":  "زندگی",
+        "tags":  [
+                     "Life"
+                 ],
+        "image":  "life-on-modern-times.png",
+        "caption":  "انسان مدرن در عصر تکنولوژی و هوش مصنوعی",
+        "excerpt":  "از مدتی قبل تصمیم گرفتم از دانسته‌ها و برداشت‌های شخصی خودم—هر چند محدود بنویسم—نه صرفا برای نمایش به دیگران، بلکه برای بازسازی روح و جسم خودم، در میان هجوم کلمات و جملات برآمده از درون."
+    },
+    {
+        "id":  "happy-new-year",
+        "slug":  "happy-new-year",
+        "title":  "سال نو مبارک!",
+        "date":  "2025-03-20",
+        "category":  "زندگی",
+        "tags":  [
+                     "Life"
+                 ],
+        "image":  "happy-new-year.png",
+        "caption":  "سال ۱۴۰۴، سال مار!",
+        "excerpt":  "شروع سال جدید و نوروز ۱۴۰۴ رو تبریک می‌گم، با آرزوی بهترین‌ها برای همگی."
+    }
+]
